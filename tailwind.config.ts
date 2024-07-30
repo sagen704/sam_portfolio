@@ -9,12 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        black: {
-          DEFAULT: '#000',
-          100: '#000319'
-        }
-      }
     },
     screens: {
       sm: '640px',
