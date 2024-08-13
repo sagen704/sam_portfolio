@@ -5,11 +5,9 @@ import Proj from "@/components/Projects";
 export default function Home() {
   return (
     <main>
-      <div>
-        <Hero />
-        <Grid />
-        <Proj />
-      </div>
+      <Hero />
+      <Grid />
+      <Proj />
     </main>
   );
 }

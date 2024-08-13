@@ -2,17 +2,17 @@ import React from "react";
 
 const Grid = () => {
   return (
-    <div className="flex bg-[#0A0B0D] flex-col">
-      <div className="flex-1 flex flex-col pb-[50px] pt-[50px] md:pr-[40px] pr-[20px]">
+    <div className="h-screen bg-[#0A0B0D] items-center">
+      <div className="flex-1 flex-col md:pr-[40px] pr-[20px] pb-[70px]">
         <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           1
         </h1>
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-5xl md:text-8xl text-white font-bold pb-4">
+        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] text-5xl md:text-8xl text-white font-bold">
           About<span className="text-[#00AFEA] font-mono">.</span>
         </h1>
       </div>
 
-      <div className="flex items-center justify-center w-full pb-[100px]">
+      <div className="flex items-center justify-center w-full ">
         <div className="grid grid-cols-5 grid-rows-3 gap-4 w-[80%]">
           <div className="col-span-5 md:col-span-2 row-span-1 md:row-span-1 bg-[#010202] rounded-3xl flex flex-col min-h-32 max-w-5xl">
             <div className="pt-6 pl-[20px] text-2xl font-bold text-white">
