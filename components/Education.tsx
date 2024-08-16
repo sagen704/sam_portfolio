@@ -2,10 +2,15 @@ import React from "react";
 import CoursesList from "./CoursesList";
 
 const Education = () => {
-  const courses = ["lkasjdflkj", "asdfasdf", "asdfasdf"];
+  const courses = [
+    "CS1450 Data Structures & Algorithms",
+    "CS3300 Intro to Software Engineering",
+    "CS3400 UX/UI Design",
+    "CS2020 Stats for Data Analytics",
+  ];
   const certifications = ["Google Data Analytics Proffessional Certificate"];
   return (
-    <div className="flex flex-col pb-[200px] pt-[100px]">
+    <div className="flex flex-col pb-[75px] md:pb-[100px] pt-[100px]">
       <div className="pl-[75px] sm:pl-[125px] lg:pl-[250px] flex flex-col pb-[70px] pt-[50px] md:pr-[40px] pr-[20px]">
         <h1 className="text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           3
