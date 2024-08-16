@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+import Hero_Descriptions from "./Hero_Descriptions";
 
 const Hero = () => {
   const words = [
@@ -15,48 +16,40 @@ const Hero = () => {
     {
       text: ".",
       className:
-        "text-6xl md:text-8xl text-blue-500 dark:text-blue-500 font-mono",
+        "text-6xl md:text-8xl text-blue-500 dark:text-sky-500 font-mono",
     },
   ];
 
   return (
-    <div className="flex h-screen bg-[#0A0B0D] items-center">
-      <div className="flex-1 flex flex-col pt-[50px] md:pt-[200px] sm:pt-[100px] md:pr-[40px] pr-[20px]">
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
+    <div className="flex h-screen items-center">
+      <div className="flex-1 flex flex-col pt-[30px] md:pt-[130px] sm:pt-[100px] md:pr-[40px] pr-[20px] pl-[75px] sm:pl-[125px] lg:pl-[250px]">
+        <h1 className=" text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           Hello, I'm
         </h1>
-        <div className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pb-[20px]">
+        <div className="pb-[20px]">
           <TypewriterEffectSmooth words={words} />
         </div>
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-2xl md:text-[42px] text-[#00AFEA] font-semibold font-helvetica">
-          About
-        </h1>
-        <p className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-sm md:text-[22px] text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
-          risus vel erat varius condimentum vitae eget velit.
-        </p>
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-2xl md:text-[42px] text-[#00AFEA] font-semibold font-helvetica">
-          Education
-        </h1>
-        <p className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-sm md:text-[22px] text-white">
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas.
-        </p>
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-2xl md:text-[42px] text-[#00AFEA] font-semibold font-helvetica">
-          Projects
-        </h1>
-        <p className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-sm md:text-[22px] text-white">
-          Nulla facilisi. Nullam vel dolor at purus vestibulum consectetur.
-          Donec nec odio ut quam interdum.
-        </p>
-        <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-2xl md:text-[42px] text-[#00AFEA] font-semibold font-helvetica">
-          Experience
-        </h1>
-        <p className="bg-[#0A0B0D] pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[10px] pb-[100px] text-sm md:text-[22px] text-white">
-          Vivamus ac urna ac nisi aliquam ultrices. Cras eu libero justo.
-          Integer feugiat quam eu diam auctor, sit amet hendrerit turpis
-          consequat.
-        </p>
+
+        <Hero_Descriptions
+          title="About"
+          description="I love to code, go to the gym, watch formuala 1, and many other fun activities!"
+          link=""
+        />
+        <Hero_Descriptions
+          title="Projects"
+          description="Some of the feature projects I enjoyed doing and learned new things."
+          link=""
+        />
+        <Hero_Descriptions
+          title="Education"
+          description="I am a CS student pursing the fields of Software Engineering and Machine Learning."
+          link=""
+        />
+        <Hero_Descriptions
+          title="Contact"
+          description="I enjoy meeting new people feel free to reach out!"
+          link=""
+        />
       </div>
     </div>
   );
