@@ -24,7 +24,7 @@ const Hero = () => {
     <div className="flex h-screen items-center">
       <div className="flex-1 flex flex-col pt-[30px] md:pt-[130px] sm:pt-[100px] md:pr-[40px] pr-[20px] pl-[75px] sm:pl-[125px] lg:pl-[250px]">
         <h1 className=" text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
-          Hello, I'm
+          Hello, I&apos;m
         </h1>
         <div className="pb-[20px]">
           <TypewriterEffectSmooth words={words} />

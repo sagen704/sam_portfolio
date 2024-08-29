@@ -102,18 +102,18 @@ const Grid = () => {
           </div>
           <div className="col-span-6 xl:col-span-3 row-span-1 xl:row-span-1 bg-[#1E1F21] rounded-3xl flex flex-col flex-shrink max-w-5xl">
             <div className="pt-6 pb-4  pl-[20px] md:pl-[40px] text-2xl md:text-4xl font-bold text-white">
-              What's Next
+              What&apos;s Next
             </div>
             <div className="pr-[20px] pl-[20px] md:pl-[40px] text-gray-400 pb-6 text-lg">
               <p>
                 As I move through my journey in computer science I want to
                 create new and innovative projects that can push the boundaries
-                of what is possible. I'm keen on getting to expand my knowledge
-                in the workforce. I strive to learn more on the topics of
-                Machine Learning and creating software that delivers exceptional
-                user experiences. By continuously learning and applying my
-                skills, I aim to contribute to make a meaningful impact in the
-                world.
+                of what is possible. I&apos;m keen on getting to expand my
+                knowledge in the workforce. I strive to learn more on the topics
+                of Machine Learning and creating software that delivers
+                exceptional user experiences. By continuously learning and
+                applying my skills, I aim to contribute to make a meaningful
+                impact in the world.
               </p>
             </div>
           </div>
