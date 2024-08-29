@@ -34,7 +34,7 @@ If you'd like to contribute to this project, please fork the repository and crea
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+Please contact me before using large parts of this project. Thanks!
 
 ## Contact
 
