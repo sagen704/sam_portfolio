@@ -32,7 +32,7 @@ const Hero = () => {
 
         <Hero_Descriptions
           title="About"
-          description="I love to code, go to the gym, watch formuala 1, and many other fun activities!"
+          description="I love to code, go to the gym, watch formula 1, and many other fun activities!"
           link="grid"
         />
         <Hero_Descriptions
