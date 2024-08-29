@@ -14,8 +14,8 @@ const Projects = () => {
           Projects<span className="text-[#00AFEA] font-mono">.</span>
         </h1>
         <p className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-sm md:text-[22px] text-gray-400">
-          I'm always working on new projects and technologies here are some ones
-          I want to feature!
+          I'm always working on new projects here are some ones I want to
+          feature!
         </p>
       </div>
       <div className="flex items-center justify-center w-full px-[75px] sm:px-[125px] lg:px-[250px]">

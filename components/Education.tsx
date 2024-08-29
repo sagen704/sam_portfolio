@@ -10,7 +10,9 @@ const Education = () => {
     "CS3400 UX/UI Design",
     "CS2020 Stats for Data Analytics",
   ];
-  const certifications = ["Google Data Analytics Proffessional Certificate"];
+  const certifications = [
+    "Google Data Analytics Professional Certificate (In Progress)",
+  ];
   return (
     <div
       className="flex flex-col pb-[75px] md:pb-[100px] pt-[100px]"
