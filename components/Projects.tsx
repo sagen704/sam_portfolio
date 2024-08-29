@@ -25,7 +25,7 @@ const Projects = () => {
               title="Personal Website"
               description="My Portfolio made with Next.js and Tailwind CSS. This site is made to show off
                            everything about me!"
-              link="https://www.apple.com/"
+              link="https://github.com/sagen704/sam_portfolio.git"
               technologies={["Next.js", "Tailwind", "React"]}
             />
           </div>
