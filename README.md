@@ -38,4 +38,4 @@ Please contact me before using large parts of this project. Thanks!
 
 ## Contact
 
-If you have any questions or want to connect, feel free to reach out to me at [Email](mailto:asdfa@adfg.com).
+If you have any questions or want to connect, feel free to reach out to me at [Email](mailto:s41153188@gmail.com).
