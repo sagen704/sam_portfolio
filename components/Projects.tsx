@@ -1,9 +1,11 @@
+"use client";
+
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col pb-[200px] pt-[250px]">
+    <div className="flex flex-col pb-[200px] pt-[250px]" id="projects">
       <div className="flex flex-col pt-[50px] md:pr-[40px] pr-[20px] pb-[70px]">
         <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           2
@@ -20,13 +22,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
           <div className="row-span-1 col-span-3 xl:col-span-1">
             <ProjectCard
-              title="Portfolio"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. 
-              Integer nec odio praesent libero sed cursus ante dapibus diam. Sed nisi nulla, quis sem at nibh elementum imperdiet. 
-              Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu 
-              eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+              title="Personal Website"
+              description="My Portfolio made with Next.js and Tailwind CSS. This site is made to show off
+                           everything about me!"
               link="https://www.apple.com/"
+              technologies={["Next.js", "Tailwind", "React"]}
             />
           </div>
         </div>

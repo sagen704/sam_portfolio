@@ -11,7 +11,7 @@ const ContactLinks = () => {
       <div className="text-[#00AFEA] px-2 text-[18px] md:text-[32px]"> | </div>
       <div className="text-gray-400 text-[18px] md:text-[28px] bold underline underline-offset-[4px]">
         <a
-          href="https://github.com/yourgithubusername"
+          href="https://github.com/sagen704/sagen704.git"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -21,7 +21,7 @@ const ContactLinks = () => {
       <div className="text-[#00AFEA] px-2 text-[18px] md:text-[32px]"> | </div>
       <div className="text-gray-400 text-[18px] md:text-[28px] bold underline underline-offset-[4px]">
         <a
-          href="https://linkedin.com/in/yourlinkedinusername"
+          href="https://www.linkedin.com/in/samuelhagen0/"
           target="_blank"
           rel="noopener noreferrer"
         >

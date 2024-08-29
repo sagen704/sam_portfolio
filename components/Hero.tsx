@@ -33,22 +33,22 @@ const Hero = () => {
         <Hero_Descriptions
           title="About"
           description="I love to code, go to the gym, watch formuala 1, and many other fun activities!"
-          link=""
+          link="grid"
         />
         <Hero_Descriptions
           title="Projects"
           description="Some of the feature projects I enjoyed doing and learned new things."
-          link=""
+          link="projects"
         />
         <Hero_Descriptions
           title="Education"
           description="I am a CS student pursing the fields of Software Engineering and Machine Learning."
-          link=""
+          link="education"
         />
         <Hero_Descriptions
           title="Contact"
           description="I enjoy meeting new people feel free to reach out!"
-          link=""
+          link="contact"
         />
       </div>
     </div>
