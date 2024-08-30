@@ -14,10 +14,7 @@ const Education = () => {
     "Google Data Analytics Professional Certificate (In Progress)",
   ];
   return (
-    <div
-      className="flex flex-col pb-[75px] md:pb-[100px] pt-[100px]"
-      id="education"
-    >
+    <div className="flex flex-col md:pb-[100px] pt-[100px]" id="education">
       <div className="pl-[75px] sm:pl-[125px] lg:pl-[250px] flex flex-col pb-[70px] pt-[50px] md:pr-[40px] pr-[20px]">
         <h1 className="text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           3

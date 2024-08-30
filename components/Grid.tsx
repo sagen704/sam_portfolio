@@ -4,7 +4,7 @@ import React from "react";
 
 const Grid = () => {
   return (
-    <div className="items-center pt-[350px]" id="grid">
+    <div className="items-center pt-[400px] md:pt-[150px]" id="grid">
       <div className="pl-[75px] sm:pl-[125px] lg:pl-[250px] flex-1 flex-col md:pr-[40px] pr-[20px]">
         <h1 className=" text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold pb-3">
           1

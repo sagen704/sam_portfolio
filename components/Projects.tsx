@@ -5,7 +5,10 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col pb-[200px] pt-[250px]" id="projects">
+    <div
+      className="flex flex-col pb-[100px] md:pb-[200px] pt-[100px] md:pt-[250px]"
+      id="projects"
+    >
       <div className="flex flex-col pt-[50px] md:pr-[40px] pr-[20px] pb-[70px]">
         <h1 className="pl-[75px] sm:pl-[125px] lg:pl-[250px] text-xl md:text-4xl text-[#00AFEA] font-courier-new font-semibold">
           2
