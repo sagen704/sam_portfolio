@@ -26,7 +26,7 @@ const Hero_Descriptions: React.FC<Hero_Descriptions_Props> = ({
       <h1 className="pt-[20px] text-2xl md:text-[42px] text-[#00AFEA] font-semibold font-helvetica text-left ">
         {title}
       </h1>
-      <p className="pt-[20px] text-[16px] md:text-[22px] text-gray-400 text-left">
+      <p className="pt-[20px] text-[16px] md:text-[20px] text-gray-400 text-left">
         {description}
       </p>
     </button>
