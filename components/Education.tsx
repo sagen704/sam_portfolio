@@ -2,9 +2,9 @@
 
 import React from "react";
 import CoursesList from "./CoursesList";
-import { strings } from "../public/Web_paragraphs/paragraphs";
-import { courses } from "../public/Web_paragraphs/paragraphs";
-import { certificates } from "../public/Web_paragraphs/paragraphs";
+import { strings } from "./ui/paragraphs";
+import { courses } from "./ui/paragraphs";
+import { certificates } from "./ui/paragraphs";
 
 const Education = () => {
   const certifications = [

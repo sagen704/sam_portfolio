@@ -2,7 +2,7 @@
 
 import React from "react";
 import ContactLinks from "./ContactLinks";
-import { strings } from "../public/Web_paragraphs/paragraphs";
+import { strings } from "./ui/paragraphs";
 
 const Contact = () => {
   return (

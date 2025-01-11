@@ -2,7 +2,7 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { strings } from "../public/Web_paragraphs/paragraphs";
+import { strings } from "./ui/paragraphs";
 
 const Projects = () => {
   return (

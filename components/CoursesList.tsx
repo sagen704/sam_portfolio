@@ -1,5 +1,5 @@
 import React from "react";
-import { courses } from "../public/Web_paragraphs/paragraphs";
+import { courses } from "./ui/paragraphs";
 
 interface CoursesListProps {
   items: string[];

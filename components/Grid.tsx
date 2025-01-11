@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { strings } from "../public/Web_paragraphs/paragraphs";
+import { strings } from "./ui/paragraphs";
 
 const Grid = () => {
   return (

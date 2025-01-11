@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Hero_Descriptions from "./Hero_Descriptions";
-import { strings } from "../public/Web_paragraphs/paragraphs";
+import { strings } from "./ui/paragraphs";
 
 const Hero = () => {
   return (
