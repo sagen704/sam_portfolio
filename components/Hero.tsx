@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Hero_Descriptions from "./Hero_Descriptions";
+import { strings } from "../public/Web_paragraphs/paragraphs";
 
 const Hero = () => {
   return (
@@ -17,22 +18,22 @@ const Hero = () => {
 
         <Hero_Descriptions
           title="About"
-          description="I'm passionate about coding, staying active at the gym, following Formula 1, and enjoying a variety of other fun activities!"
+          description={strings.aboutHeader}
           link="grid"
         />
         <Hero_Descriptions
           title="Projects"
-          description="These featured projects offered valuable learning experiences and were a pleasure to work on."
+          description={strings.projectHeader}
           link="projects"
         />
         <Hero_Descriptions
           title="Education"
-          description="I'm a Computer Science student focused on Software Engineering and Machine Learning."
+          description={strings.educationHeader}
           link="education"
         />
         <Hero_Descriptions
           title="Contact"
-          description="I enjoy meeting new people, feel free to reach out!"
+          description={strings.contactHeader}
           link="contact"
         />
       </div>

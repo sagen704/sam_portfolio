@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { strings } from "../public/Web_paragraphs/paragraphs";
 
 const Grid = () => {
   return (
@@ -14,67 +15,41 @@ const Grid = () => {
         </h1>
 
         <p className="pr-[20px] text-gray-400 pb-6 text-lg max-w-[900px]">
-          I am a Computer Science student at UCCS, specializing in Software
-          Engineering and Machine Learning. I love coding for its endless
-          problem-solving opportunities and the chance to develop creative
-          solutions. Always exploring new technologies and I strive to deepen my
-          knowledge. I thrive on the challenges and creativity that coding
-          offers and stay engaged in projects that allow me to apply and expand
-          my skills. I thrive in environments that challenge me and offer
-          opportunities for growth and excellence.
+          {strings.aboutParagraph1}
         </p>
         <p className="hidden xl:block">
           <br />
         </p>
         <p className="pr-[20px] text-gray-400 pb-6 text-lg max-w-[900px] hidden xl:block">
-          Outside of school, I am an avid self-learner who believes that the
-          effort you invest in a project directly impacts the results you
-          achieve. You can often find me at the gym, following Formula 1, or
-          enjoying the local scenery.
+          {strings.aboutParagraph2}
         </p>
 
         <div className="pt-6 pb-4 text-2xl md:text-4xl font-bold text-white">
           What&apos;s Next
         </div>
         <div className="pr-[20px] text-gray-400 pb-6 text-lg max-w-[900px]">
-          <p>
-            As I advance in my journey through computer science, I aim to create
-            innovative projects that push the boundaries my knowledge. I am
-            eager to expand my knowledge in the workforce and focus on Machine
-            Learning and developing software that offers exceptional user
-            experiences. By continually learning and applying my skills, I
-            strive to make a meaningful impact in the world.
-          </p>
+          <p>{strings.whatsNextParagraph}</p>
         </div>
         <div className="pt-6 pb-4 text-2xl md:text-4xl font-bold text-white">
           Skills
         </div>
 
-        <div className="pr-[20px] pl-[20px] md:pl-[40px] text-gray-400 pb-6 text-lg flex flex-row">
-          <div className="pr-[20px]  text-gray-400 pb-6 text-lg">
+        <div className="pr-[20px] pl-[20px] md:pl-[40px] text-gray-400 pb-4 text-lg flex flex-row">
+          <div className="pr-[20px]  text-gray-400 pb-4 text-lg">
             <p className="pb-0 xl:pb-6">
               <span className="pb-2 text-white font-semibold">Languages</span>
               <br />
-              &emsp; HTML, CSS, Javascript, Python, Java, C
+              &emsp; {strings.languageSkills}
             </p>
             <p className="pb-0 xl:pb-6">
-              <span className="pb-2 text-white font-semibold">
-                Technologies:
-              </span>
+              <span className="pb-2 text-white font-semibold">Software:</span>
               <br />
-              &emsp; React, Next.js, Tailwind
+              &emsp; {strings.softwareSkills}
             </p>
             <p className="pb-0 xl:pb-6">
-              <span className="pb-2 text-white font-semibold">Tools:</span>
+              <span className="pb-2 text-white font-semibold">Libraries:</span>
               <br />
-              &emsp; Git, Docker, AWS
-            </p>
-            <p className="pb-0 xl:pb-6">
-              <span className="pb-2 text-white font-semibold">
-                Methodologies:
-              </span>
-              <br />
-              &emsp; Agile Development
+              &emsp; {strings.librariesSkills}
             </p>
           </div>
         </div>

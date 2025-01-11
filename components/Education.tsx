@@ -2,16 +2,13 @@
 
 import React from "react";
 import CoursesList from "./CoursesList";
+import { strings } from "../public/Web_paragraphs/paragraphs";
+import { courses } from "../public/Web_paragraphs/paragraphs";
+import { certificates } from "../public/Web_paragraphs/paragraphs";
 
 const Education = () => {
-  const courses = [
-    "CS1450 Data Structures & Algorithms",
-    "CS3300 Intro to Software Engineering",
-    "CS3400 UX/UI Design",
-    "CS2020 Stats for Data Analytics",
-  ];
   const certifications = [
-    "Google Data Analytics Professional Certificate (In Progress)",
+    "Google Data Analytics Professional Certificate 2024",
   ];
   return (
     <div className="flex flex-col md:pb-[100px] pt-[100px]" id="education">
@@ -23,7 +20,7 @@ const Education = () => {
           Education<span className="text-[#00AFEA] font-mono">.</span>
         </h1>
         <p className="pt-[20px] text-sm md:text-[22px] text-gray-400 pb-[20px]">
-          I am currently a student at University of Colorado at Colorado Springs
+          {strings.educationIntro}
         </p>
 
         <h3 className="pt-[20px] text:base md:text-3xl text-white font-bold pb-4">
@@ -36,7 +33,7 @@ const Education = () => {
           Certifications
         </h3>
 
-        <CoursesList items={certifications} />
+        <CoursesList items={certificates} />
       </div>
     </div>
   );

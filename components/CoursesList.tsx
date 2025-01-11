@@ -1,4 +1,5 @@
 import React from "react";
+import { courses } from "../public/Web_paragraphs/paragraphs";
 
 interface CoursesListProps {
   items: string[];
@@ -6,9 +7,9 @@ interface CoursesListProps {
 
 const CoursesList: React.FC<CoursesListProps> = ({ items }) => {
   return (
-    <ul className="pt-[10px] text-sm md:text-[22px] text-gray-400 pb-[20px]">
+    <ul className="pt-[10px] text-sm md:text-[18px] text-gray-400 pb-[20px]">
       {items.map((item, index) => (
-        <li className="pb-3" key={index}>
+        <li className="pl-2 pb-4" key={index}>
           - {item}
         </li>
       ))}

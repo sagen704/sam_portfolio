@@ -2,11 +2,12 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import { strings } from "../public/Web_paragraphs/paragraphs";
 
 const Projects = () => {
   return (
     <div
-      className="flex flex-col pb-[100px] md:pb-[200px] pt-[100px] md:pt-[250px]"
+      className="flex flex-col pb-[100px] md:pb-[200px] pt-[75px] md:pt-[200px]"
       id="projects"
     >
       <div className="flex flex-col pt-[50px] md:pr-[40px] pr-[20px] pb-[70px]">
@@ -17,8 +18,7 @@ const Projects = () => {
           Projects<span className="text-[#00AFEA] font-mono">.</span>
         </h1>
         <p className="pl-[75px] sm:pl-[125px] lg:pl-[250px] pt-[20px] text-sm md:text-[22px] text-gray-400">
-          I'm always working on new projects here are some ones I want to
-          feature!
+          {strings.projectsIntro}
         </p>
       </div>
       <div className="flex items-center justify-center w-full px-[75px] sm:px-[125px] lg:px-[250px]">
