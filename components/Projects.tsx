@@ -28,8 +28,16 @@ const Projects = () => {
               title="Personal Website"
               description="My Portfolio made with Next.js and Tailwind CSS. This site is made to show off
                            everything about me!"
-              link="https://github.com/sagen704/sam_portfolio.git"
+              link="https://github.com/sagen704/Team-Lift"
               technologies={["Next.js", "Tailwind", "React"]}
+            />
+          </div>
+          <div className="row-span-1 col-span-3 xl:col-span-1">
+            <ProjectCard
+              title="Full Stack Web Development"
+              description="I lead a team to create a full stack website to help track fitness. Users create accounts and create personal fitness plans"
+              link="https://github.com/sagen704/sam_portfolio.git"
+              technologies={["Handlebars", "Postgres", "Express", "NodeJS"]}
             />
           </div>
         </div>
