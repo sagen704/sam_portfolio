@@ -40,6 +40,14 @@ const Projects = () => {
               technologies={["Handlebars", "Postgres", "Express", "NodeJS"]}
             />
           </div>
+          <div className="row-span-1 col-span-3 xl:col-span-1">
+            <ProjectCard
+              title="Neural Network Image Classifier"
+              description="I built a neural network that can guess drawn numbers. I used the MNIST dataset to train and went through several iterations to improve validation accuracy."
+              link="https://github.com/sagen704/MNIST_Neural_Network"
+              technologies={["TensorFlow", "Keras"]}
+            />
+          </div>
         </div>
       </div>
     </div>
